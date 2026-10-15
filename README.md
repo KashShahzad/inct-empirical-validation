@@ -34,3 +34,13 @@ All empirical analyses in this repository are derived from **$N = 5,652$ standar
 │   └── feature_extraction.py                 # Core length-invariant information-theoretic kernel
 ├── requirements.txt                          # Python library dependencies
 └── README.md
+
+---
+
+## Quick Start
+
+git clone [https://github.com/](https://github.com/)<your-username>/inct-paper1-replication.git
+cd inct-paper1-replication
+pip install -r requirements.txt
+
+---
