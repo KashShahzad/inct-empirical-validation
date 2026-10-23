@@ -1,50 +1,59 @@
-# Disentangling Closed-Class Binarization, Partisan Style, and Conversational Decompression in Ideological Discourse
+# Lexical Compression and Closed-Class Framing in Ideological Discourse: A Multi-Corpus Methodological and Specification-Curve Audit
 
-Official replication repository for the manuscript:
+[![Open Baseline Pipeline In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/KashShahzad/inct-empirical-validation/blob/main/notebooks/Master_V3_Five_Corpus_Pipeline.ipynb)
+[![Open Robustness & Spec-Curve Audit In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/KashShahzad/inct-empirical-validation/blob/main/notebooks/Robustness_Reanalysis.ipynb)
 
-> **Disentangling Closed-Class Binarization, Partisan Style, and Conversational Decompression in Ideological Discourse: A Five-Corpus Rate-Distortion Study**  
-> **Author:** Kashif Shahzad  
-> **arXiv Classification:** `cs.CL` (Computation and Language); `cs.SI` (Social and Information Networks)
-
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/downloads/)
+Official replication repository for **"Lexical Compression and Closed-Class Framing in Ideological Discourse: A Multi-Corpus Methodological and Specification-Curve Audit"** (Shahzad, 2026).
 
 ---
 
 ## Overview
 
-This repository provides the complete, end-to-end Python replication pipeline, de-identified numeric feature matrices (`data/*.csv`), and dynamic vector figure generators (`figures/*.pdf`) for testing **Ideological Noisy Channel Theory (INCT)** across five benchmark text corpora ($N = 26,388$ fixed-length text windows).
+Computational studies of political and extremist text frequently report that ideological rigidity is characterized by reduced open-class vocabulary diversity and elevated closed-class binary framing. This repository provides an end-to-end methodological and specification-curve (multiverse) audit across five political and extremist corpora, isolating substantive linguistic signal from seven pervasive corpus confounds:
 
-Our pipeline separates **source-level closed-class quantization** (collapsing social actors and causal contingencies into collective intergroup pronouns _We/Us_ vs. _They/Them_ and deterministic absolutist quantifiers) from **channel-level open-class lexical compression** (Kullback-Leibler divergence $D_{\text{KL,Global}}$, Topic-Deconfounded Tail $D_{\text{KL,Tail}}$, Yule's $K$ concentration, and Lempel-Ziv compressibility $R_{\text{LZ}}$).
-
-To eliminate common natural language processing (NLP) confounds, all analyses enforce:
-
-1. **Strict Disjoint Vocabulary Filtering:** A 130-word closed-class stopword filter ($\mathcal{S}_{130}$) removes all function words, modals, negations, personal/collective pronouns, and absolutist quantifiers from the open-class content stream prior to computing $D_{\text{KL}}$, Yule's $K$, and $R_{\text{LZ}}$.
-2. **Zero Multi-Author Concatenation & Fixed-Length Windowing ($W$):** Prevents Heaps' Law length distortion and cross-author "Frankenstein" windowing artifacts.
-3. **Out-of-Author Cross-Validation (`GroupKFold`):** Groups train/test splits strictly by `user_id` with in-fold `StandardScaler` normalization.
-4. **Speech-Level & Person-Mean Centered REML Mixed-Effects Models (`MixedLM`):** Controls for spoken vs. written delivery mode and secular drift in historical archives, and separates within-user conversational state shifts ($\Delta\phi_{it} = \phi_{it} - \bar{\phi}_i$) from between-user traits ($\bar{\phi}_i$) in social networks after stripping all retweets and `#hashtags`.
+1. Cross-document concatenation and Heaps'-law length scaling
+2. Function-word leakage into open-class content streams
+3. Platform retweets, hashtag templates, and aggregator roundup titles
+4. Keyword-scraped control baselines (`AboutIsis.csv`)
+5. Organizational outlet clustering vs. within-story matching (_AllSides_)
+6. Secular historical modernization drift vs. war/recession crisis taxonomies (_State of the Union_, 1790–2008)
+7. Within- vs. between-author conflation and omitted random slopes (_Stormfront_ & _ISIS_ Twitter)
 
 ---
 
 ## Repository Structure
 
 ```text
-├── data/                                                  # Exported de-identified feature matrices
-│   ├── study1a_allsides_balanced_w52.csv                  # Study 1A: N=16,366 articles across 553 topics (W=52)
-│   ├── study1b_single_posts_w40.csv                       # Study 1B: N=6,913 single posts, zero concatenation (W=40)
-│   ├── study1c_stormfront_windows_w50.csv                 # Study 1C: 1,465 windows across N=728 unique users (W=50)
-│   ├── study2a_sotu_speeches_1790_2008.csv                # Study 2A: N=222 SOTU speeches across 40 Presidents (W=250)
-│   ├── study2b_isis_longitudinal_w150_no_hashtags.csv     # Study 2B: N=785 RT- & hashtag-stripped windows, 56 users (W=150)
-│   └── study2b_sampling_audit_w100.csv                    # Study 2B Audit: N=207 users, 697 windows (W=100)
-├── figures/
-│   ├── Figure_1_RateDistortion_CrossSectional.pdf         # Vector PDF of Figure 1 (Studies 1B & 1C)
-│   ├── Figure_1_RateDistortion_CrossSectional.png         # 300 DPI PNG preview of Figure 1
-│   ├── Figure_2_Historical_And_Network_MixedLM.pdf        # Vector PDF of Figure 2 (Studies 2A & 2B)
-│   └── Figure_2_Historical_And_Network_MixedLM.png        # 300 DPI PNG preview of Figure 2
+inct-empirical-validation/
 ├── notebooks/
-│   └── Master_V3_Five_Corpus_Pipeline.ipynb               # Self-contained statistical audit & dynamic figure generator
+│   ├── Master_V3_Five_Corpus_Pipeline.ipynb          # Primary feature extraction & baseline tables (Studies 1A–2B)
+│   └── Robustness_Reanalysis.ipynb                   # Outlet-level 1A, 288-spec curve 2A, & within-user 2B reanalysis
+├── data/                                             # Exported window- and unit-level feature matrices (CSV)
+│   ├── study1a_allsides_balanced_w52.csv             # Study 1A baseline windows (N = 16,366)
+│   ├── study1b_mhs_single_posts_w40.csv              # Study 1B single social media posts (N = 6,913)
+│   ├── study1c_stormfront_users_w50.csv              # Study 1C unique Stormfront authors (N = 728; 61 dual-label)
+│   ├── study2a_sotu_speeches_1790_2008.csv           # Study 2A speech-level SOTU matrix (N = 222 speeches, 40 Presidents)
+│   ├── study2b_isis_longitudinal_w150_no_hashtags.csv# Study 2B chronological RT/hashtag-stripped panel (N = 785 windows)
+│   └── study2b_table6_keyword_scrape_audit_w100.csv  # Table 8 keyword-scraped baseline audit (N = 207 accounts)
+├── robustness_outputs/                               # Multi-estimator & specification-curve outputs and figures
+│   ├── study1a_outlet_level_results.csv              # 4-estimator comparison (outlet-only n=15,038 & title-included n=16,366)
+│   ├── study1a_leave_top_k_outlets.csv               # Leave-top-k (k=0..10) within-story vs. unmatched sensitivity
+│   ├── study2a_specification_curve.csv               # Full 288-specification curve per feature (2,592 fits)
+│   ├── study2a_joint_test.csv                        # Circular-shift permutation joint test (203 rotations)
+│   ├── study2a_joint_test_by_crisis_family.csv       # Joint tests stratified by War vs. Economic crisis families
+│   ├── study2b_robustness_main.csv                   # User RI, User RI + random slope, User FE (wild bootstrap), cap20, drop3
+│   ├── study2b_specification_curve.csv               # 54-specification curve across Study 2B panel models
+│   ├── study2b_joint_test.csv                        # Within-user permutation joint test for Study 2B
+│   ├── Figure_R1_Study1A_outlet_level.pdf/.png       # Leave-top-k curves & two-way FE outlet effects
+│   ├── Figure_R2_Study2A_speccurve_absolutist.pdf/.png # 288-spec curve for absolutist density
+│   ├── Figure_R3_Study2A_speccurve_theythem.pdf/.png # 288-spec curve for they/them pronoun density
+│   ├── Figure_R4_Study2A_all_outcomes.pdf/.png       # Summary specification curves across all 9 SOTU outcomes
+│   └── Figure_R5_Study2B_within_user.pdf/.png        # Study 2B within-account estimators & 54-spec joint test summary
+├── figures/                                          # Baseline multi-panel figures
+│   ├── Figure_1_CrossSectional_AllSides_MHS_Stormfront.pdf/.png
+│   └── Figure_2_Historical_And_Network_MixedLM.pdf/.png
 ├── src/
-│   └── feature_extraction.py                              # 9-feature Rate-Distortion & Closed-Class Quantization kernel
-├── requirements.txt                                       # Pinned Python dependencies
+│   └── feature_extraction.py                         # Standardized 11-feature kernel (synced verbatim with notebooks)
+├── requirements.txt                                  # Pinned Python dependencies
 └── README.md
 ```

@@ -1,0 +1,433 @@
+outcome,sample,covariates,scale,estimator,beta,se,p,converged,paper_spec
+R_LZ_Content,All windows,None,Person-centred φ (paper),User RI (paper),-0.15289120627878,0.029944969254059487,3.2950371150746135e-07,True,False
+R_LZ_Content,All windows,None,Person-centred φ (paper),User RI + random slope,-0.11090463016519932,0.05386845615168375,0.0395129522184617,True,False
+R_LZ_Content,All windows,None,Person-centred φ (paper),"User FE, clustered SE",-0.15289120627878008,0.04328576662496699,0.0008429891451784396,True,False
+R_LZ_Content,All windows,None,Within-account percentile rank,User RI (paper),-0.1418797355065281,0.030019439859377547,2.286906339612421e-06,True,False
+R_LZ_Content,All windows,None,Within-account percentile rank,User RI + random slope,-0.08225811406953328,0.058718750149438316,0.1612489857259568,True,False
+R_LZ_Content,All windows,None,Within-account percentile rank,"User FE, clustered SE",-0.14187973550652816,0.050450156261238624,0.006806358206211091,True,False
+R_LZ_Content,All windows,Tweets in window,Person-centred φ (paper),User RI (paper),-0.15578625769584994,0.030778571020678994,4.159338399925315e-07,True,False
+R_LZ_Content,All windows,Tweets in window,Person-centred φ (paper),User RI + random slope,-0.11226811919165419,0.05445435527069207,0.039237050222067665,True,False
+R_LZ_Content,All windows,Tweets in window,Person-centred φ (paper),"User FE, clustered SE",-0.14777773451532702,0.04516065206975398,0.0018463196108560957,True,False
+R_LZ_Content,All windows,Tweets in window,Within-account percentile rank,User RI (paper),-0.1425050796191745,0.030549279935748408,3.0897643038045664e-06,True,False
+R_LZ_Content,All windows,Tweets in window,Within-account percentile rank,User RI + random slope,-0.08282136739722218,0.059156063875112144,0.16149875033164574,True,False
+R_LZ_Content,All windows,Tweets in window,Within-account percentile rank,"User FE, clustered SE",-0.1360930763012962,0.0521606109875232,0.011668797430758205,True,False
+R_LZ_Content,All windows,Tweets + career stage (paper),Person-centred φ (paper),User RI (paper),-0.15573036628640657,0.03081003605174788,4.314435190372416e-07,True,True
+R_LZ_Content,All windows,Tweets + career stage (paper),Person-centred φ (paper),User RI + random slope,-0.11189389861329371,0.05457341727146454,0.04033155283693546,True,False
+R_LZ_Content,All windows,Tweets + career stage (paper),Person-centred φ (paper),"User FE, clustered SE",-0.14778822715643136,0.04535823539601454,0.0019243399902034264,True,False
+R_LZ_Content,All windows,Tweets + career stage (paper),Within-account percentile rank,User RI (paper),-0.14256024938899994,0.03061169950369757,3.2077082046078265e-06,True,False
+R_LZ_Content,All windows,Tweets + career stage (paper),Within-account percentile rank,User RI + random slope,-0.08226086033371188,0.05926052049007055,0.16509975406767696,True,False
+R_LZ_Content,All windows,Tweets + career stage (paper),Within-account percentile rank,"User FE, clustered SE",-0.13628828332611517,0.05240774321215645,0.011931098106411707,True,False
+R_LZ_Content,≤ 20 windows per account,None,Person-centred φ (paper),User RI (paper),-0.08792540376509868,0.04022155825726929,0.02881364561537145,True,False
+R_LZ_Content,≤ 20 windows per account,None,Person-centred φ (paper),User RI + random slope,-0.07663241113305808,0.05641028708362505,0.17431050078650756,True,False
+R_LZ_Content,≤ 20 windows per account,None,Person-centred φ (paper),"User FE, clustered SE",-0.08792540376509848,0.05872818098633561,0.14006922815377013,True,False
+R_LZ_Content,≤ 20 windows per account,None,Within-account percentile rank,User RI (paper),-0.09130382224774863,0.04040956754400946,0.02385475385021137,True,False
+R_LZ_Content,≤ 20 windows per account,None,Within-account percentile rank,User RI + random slope,-0.06685464560647929,0.060175902976894395,0.2665739472858262,True,False
+R_LZ_Content,≤ 20 windows per account,None,Within-account percentile rank,"User FE, clustered SE",-0.0913038222477485,0.07330099481388629,0.21819110940023623,True,False
+R_LZ_Content,≤ 20 windows per account,Tweets in window,Person-centred φ (paper),User RI (paper),-0.09061822428542626,0.041376264512093565,0.02851686716939516,True,False
+R_LZ_Content,≤ 20 windows per account,Tweets in window,Person-centred φ (paper),User RI + random slope,-0.0792333199669563,0.05705196684782377,0.16489598290100516,True,False
+R_LZ_Content,≤ 20 windows per account,Tweets in window,Person-centred φ (paper),"User FE, clustered SE",-0.07587439257868488,0.06053812361822606,0.2153866841613242,True,False
+R_LZ_Content,≤ 20 windows per account,Tweets in window,Within-account percentile rank,User RI (paper),-0.09247705384267954,0.04106851611831578,0.02433650052439377,True,False
+R_LZ_Content,≤ 20 windows per account,Tweets in window,Within-account percentile rank,User RI + random slope,-0.0701388736395298,0.06084089196011502,0.2489824073480974,True,False
+R_LZ_Content,≤ 20 windows per account,Tweets in window,Within-account percentile rank,"User FE, clustered SE",-0.08159277275698353,0.07429978446312524,0.2769205731518186,True,False
+R_LZ_Content,≤ 20 windows per account,Tweets + career stage (paper),Person-centred φ (paper),User RI (paper),-0.09103287886599926,0.041474679228693655,0.02817058945064803,True,False
+R_LZ_Content,≤ 20 windows per account,Tweets + career stage (paper),Person-centred φ (paper),User RI + random slope,-0.08008951713165809,0.057222337358961414,0.16162719754718435,True,False
+R_LZ_Content,≤ 20 windows per account,Tweets + career stage (paper),Person-centred φ (paper),"User FE, clustered SE",-0.07638853773319604,0.06110055752839248,0.2165160547528042,True,False
+R_LZ_Content,≤ 20 windows per account,Tweets + career stage (paper),Within-account percentile rank,User RI (paper),-0.09353777416675858,0.041281911499819315,0.023461822552375215,True,False
+R_LZ_Content,≤ 20 windows per account,Tweets + career stage (paper),Within-account percentile rank,User RI + random slope,-0.07047501767484513,0.06095299617334421,0.24759155391375576,True,False
+R_LZ_Content,≤ 20 windows per account,Tweets + career stage (paper),Within-account percentile rank,"User FE, clustered SE",-0.08285000212975473,0.07504881331151801,0.27442215779437523,True,False
+R_LZ_Content,Without 3 largest accounts,None,Person-centred φ (paper),User RI (paper),-0.106856643565921,0.040976124516478446,0.009113198762212138,True,False
+R_LZ_Content,Without 3 largest accounts,None,Person-centred φ (paper),User RI + random slope,-0.08655631134151967,0.0618366582397063,0.16158602033343028,True,False
+R_LZ_Content,Without 3 largest accounts,None,Person-centred φ (paper),"User FE, clustered SE",-0.10685664356592112,0.06250156646787118,0.09328996120382155,True,False
+R_LZ_Content,Without 3 largest accounts,None,Within-account percentile rank,User RI (paper),-0.105257924297615,0.04075402196107902,0.009801301512601002,True,False
+R_LZ_Content,Without 3 largest accounts,None,Within-account percentile rank,User RI + random slope,-0.06957487203740047,0.0646844730740664,0.2821044388106102,True,False
+R_LZ_Content,Without 3 largest accounts,None,Within-account percentile rank,"User FE, clustered SE",-0.10525792429761517,0.07400808102340035,0.16092496067438544,True,False
+R_LZ_Content,Without 3 largest accounts,Tweets in window,Person-centred φ (paper),User RI (paper),-0.10696141780884161,0.04281875299981261,0.01248947718643225,True,False
+R_LZ_Content,Without 3 largest accounts,Tweets in window,Person-centred φ (paper),User RI + random slope,-0.08671462813938442,0.06276814242112232,0.16712312697881293,True,False
+R_LZ_Content,Without 3 largest accounts,Tweets in window,Person-centred φ (paper),"User FE, clustered SE",-0.08903360421843536,0.06400754110060602,0.17015323869911128,True,False
+R_LZ_Content,Without 3 largest accounts,Tweets in window,Within-account percentile rank,User RI (paper),-0.1037165524305225,0.04184600696655306,0.013192529223263968,True,False
+R_LZ_Content,Without 3 largest accounts,Tweets in window,Within-account percentile rank,User RI + random slope,-0.06965659595872638,0.0654198113593426,0.2869831832319494,True,False
+R_LZ_Content,Without 3 largest accounts,Tweets in window,Within-account percentile rank,"User FE, clustered SE",-0.09013546741023491,0.0752567335030841,0.23646238281263898,True,False
+R_LZ_Content,Without 3 largest accounts,Tweets + career stage (paper),Person-centred φ (paper),User RI (paper),-0.10662460980384145,0.042892308134586374,0.012923594624570446,True,False
+R_LZ_Content,Without 3 largest accounts,Tweets + career stage (paper),Person-centred φ (paper),User RI + random slope,-0.085727461852954,0.063009292342948,0.1736550928022692,True,False
+R_LZ_Content,Without 3 largest accounts,Tweets + career stage (paper),Person-centred φ (paper),"User FE, clustered SE",-0.08876239876794566,0.06424398497301478,0.17298827738288822,True,False
+R_LZ_Content,Without 3 largest accounts,Tweets + career stage (paper),Within-account percentile rank,User RI (paper),-0.10329883869598161,0.04202650587156627,0.013973458426763999,True,False
+R_LZ_Content,Without 3 largest accounts,Tweets + career stage (paper),Within-account percentile rank,User RI + random slope,-0.06836662489095532,0.06561742314048748,0.2974592332576408,True,False
+R_LZ_Content,Without 3 largest accounts,Tweets + career stage (paper),Within-account percentile rank,"User FE, clustered SE",-0.08985876705182011,0.07592284130461091,0.24197225325475652,True,False
+D_KL_Global,All windows,None,Person-centred φ (paper),User RI (paper),-0.09390551720664865,0.03137326301309804,0.0027609569368289596,True,False
+D_KL_Global,All windows,None,Person-centred φ (paper),User RI + random slope,-0.08549035378919034,0.055309126194048513,0.12218124235527231,True,False
+D_KL_Global,All windows,None,Person-centred φ (paper),"User FE, clustered SE",-0.09390551720664868,0.050734744869558146,0.06955512324637197,True,False
+D_KL_Global,All windows,None,Within-account percentile rank,User RI (paper),-0.11366560324510515,0.03128354445635228,0.00027971182484902397,True,False
+D_KL_Global,All windows,None,Within-account percentile rank,User RI + random slope,-0.10372490565468348,0.055791729750624575,0.06300661302731327,True,False
+D_KL_Global,All windows,None,Within-account percentile rank,"User FE, clustered SE",-0.11366560324510513,0.05683750769064121,0.050466646072385726,True,False
+D_KL_Global,All windows,Tweets in window,Person-centred φ (paper),User RI (paper),-0.09123854321351707,0.03220737327184624,0.00461355408600622,True,False
+D_KL_Global,All windows,Tweets in window,Person-centred φ (paper),User RI + random slope,-0.08000802363680967,0.05601326443302949,0.15318355523418584,True,False
+D_KL_Global,All windows,Tweets in window,Person-centred φ (paper),"User FE, clustered SE",-0.08069960526471578,0.05364394256652349,0.13821091130249535,True,False
+D_KL_Global,All windows,Tweets in window,Within-account percentile rank,User RI (paper),-0.11140274569252598,0.03180457335587974,0.00046052076639441816,True,False
+D_KL_Global,All windows,Tweets in window,Within-account percentile rank,User RI + random slope,-0.10095778698789772,0.05640340537181334,0.073466192628937,True,False
+D_KL_Global,All windows,Tweets in window,Within-account percentile rank,"User FE, clustered SE",-0.10318612533362588,0.05974342990147964,0.08975261882215825,True,False
+D_KL_Global,All windows,Tweets + career stage (paper),Person-centred φ (paper),User RI (paper),-0.08955478944981993,0.03216015953651183,0.005358552345027784,True,True
+D_KL_Global,All windows,Tweets + career stage (paper),Person-centred φ (paper),User RI + random slope,-0.0774063349078387,0.055857968844317984,0.16581694105709588,True,False
+D_KL_Global,All windows,Tweets + career stage (paper),Person-centred φ (paper),"User FE, clustered SE",-0.0792303250895298,0.05254991906023013,0.13735035557274136,True,False
+D_KL_Global,All windows,Tweets + career stage (paper),Within-account percentile rank,User RI (paper),-0.10824780911126095,0.03179919085385683,0.0006638104362392545,True,False
+D_KL_Global,All windows,Tweets + career stage (paper),Within-account percentile rank,User RI + random slope,-0.09844819867445428,0.05613846390504964,0.07948750048453132,True,False
+D_KL_Global,All windows,Tweets + career stage (paper),Within-account percentile rank,"User FE, clustered SE",-0.10030279596431298,0.05931311973401671,0.09648282138826837,True,False
+D_KL_Global,≤ 20 windows per account,None,Person-centred φ (paper),User RI (paper),-0.027329013808956106,0.03992882898088408,0.49369537119483364,True,False
+D_KL_Global,≤ 20 windows per account,None,Person-centred φ (paper),User RI + random slope,-0.035350619408454215,0.056151304078692406,0.5289824497152817,True,False
+D_KL_Global,≤ 20 windows per account,None,Person-centred φ (paper),"User FE, clustered SE",-0.027329013808956016,0.05309572248781095,0.6088165235025331,True,False
+D_KL_Global,≤ 20 windows per account,None,Within-account percentile rank,User RI (paper),-0.07241621615743687,0.04000504012897992,0.07026829420021172,True,False
+D_KL_Global,≤ 20 windows per account,None,Within-account percentile rank,User RI + random slope,-0.07394349603383978,0.057538893546738384,0.19875573885360032,True,False
+D_KL_Global,≤ 20 windows per account,None,Within-account percentile rank,"User FE, clustered SE",-0.0724162161574368,0.0650457560694741,0.27041655735550496,True,False
+D_KL_Global,≤ 20 windows per account,Tweets in window,Person-centred φ (paper),User RI (paper),-0.03274386894209234,0.041098913510436846,0.42562013127240517,True,False
+D_KL_Global,≤ 20 windows per account,Tweets in window,Person-centred φ (paper),User RI + random slope,-0.040715352446286664,0.05702545968713487,0.4752361337618166,True,False
+D_KL_Global,≤ 20 windows per account,Tweets in window,Person-centred φ (paper),"User FE, clustered SE",-0.016261686763412875,0.058195221206713686,0.780960413657224,True,False
+D_KL_Global,≤ 20 windows per account,Tweets in window,Within-account percentile rank,User RI (paper),-0.0773817800112294,0.04070431714343955,0.05729276781512991,True,False
+D_KL_Global,≤ 20 windows per account,Tweets in window,Within-account percentile rank,User RI + random slope,-0.08217847110792728,0.05822967568127694,0.15816159140842911,True,False
+D_KL_Global,≤ 20 windows per account,Tweets in window,Within-account percentile rank,"User FE, clustered SE",-0.06548249753217807,0.0703692055949489,0.3561498339100327,True,False
+D_KL_Global,≤ 20 windows per account,Tweets + career stage (paper),Person-centred φ (paper),User RI (paper),-0.031586905295581176,0.04118707702785292,0.4431332367708358,True,False
+D_KL_Global,≤ 20 windows per account,Tweets + career stage (paper),Person-centred φ (paper),User RI + random slope,-0.03938963043940753,0.05703496871641697,0.4898028287413111,True,False
+D_KL_Global,≤ 20 windows per account,Tweets + career stage (paper),Person-centred φ (paper),"User FE, clustered SE",-0.015259670977765885,0.05844175453096296,0.7949836656936152,True,False
+D_KL_Global,≤ 20 windows per account,Tweets + career stage (paper),Within-account percentile rank,User RI (paper),-0.07579911477075138,0.04091424129416572,0.06393483480952776,True,False
+D_KL_Global,≤ 20 windows per account,Tweets + career stage (paper),Within-account percentile rank,User RI + random slope,-0.08114284336394499,0.05823990221958799,0.16354368774181227,True,False
+D_KL_Global,≤ 20 windows per account,Tweets + career stage (paper),Within-account percentile rank,"User FE, clustered SE",-0.06413926984704725,0.0714542945840954,0.37329732402344434,True,False
+D_KL_Global,Without 3 largest accounts,None,Person-centred φ (paper),User RI (paper),-0.08132761168944219,0.03980747677033581,0.04105010894783761,True,False
+D_KL_Global,Without 3 largest accounts,None,Person-centred φ (paper),User RI + random slope,-0.08029039961552006,0.06461842320967387,0.2140406781335663,True,False
+D_KL_Global,Without 3 largest accounts,None,Person-centred φ (paper),"User FE, clustered SE",-0.0813276116894422,0.06248056373504188,0.19877441888803435,True,False
+D_KL_Global,Without 3 largest accounts,None,Within-account percentile rank,User RI (paper),-0.1339547500366845,0.0392673795636263,0.0006464220952387724,True,False
+D_KL_Global,Without 3 largest accounts,None,Within-account percentile rank,User RI + random slope,-0.10475109032846476,0.06176841462742872,0.08991084253988033,True,False
+D_KL_Global,Without 3 largest accounts,None,Within-account percentile rank,"User FE, clustered SE",-0.13395475003668467,0.06598675124993467,0.047484272994136566,True,False
+D_KL_Global,Without 3 largest accounts,Tweets in window,Person-centred φ (paper),User RI (paper),-0.08912270880846002,0.04164893292207177,0.03236642570811791,True,False
+D_KL_Global,Without 3 largest accounts,Tweets in window,Person-centred φ (paper),User RI + random slope,-0.0886449742236507,0.06610837170941997,0.17995165202707686,True,False
+D_KL_Global,Without 3 largest accounts,Tweets in window,Person-centred φ (paper),"User FE, clustered SE",-0.07011211481194114,0.06346017862547351,0.2743232691961463,True,False
+D_KL_Global,Without 3 largest accounts,Tweets in window,Within-account percentile rank,User RI (paper),-0.14123331803494726,0.04039828551298713,0.0004722487494887236,True,False
+D_KL_Global,Without 3 largest accounts,Tweets in window,Within-account percentile rank,User RI + random slope,-0.116136891994398,0.06263137070933697,0.06369729937311266,True,False
+D_KL_Global,Without 3 largest accounts,Tweets in window,Within-account percentile rank,"User FE, clustered SE",-0.1273009142420501,0.0697140690899851,0.07358771310103221,True,False
+D_KL_Global,Without 3 largest accounts,Tweets + career stage (paper),Person-centred φ (paper),User RI (paper),-0.0872726787310085,0.041658505905962435,0.03617502815817779,True,False
+D_KL_Global,Without 3 largest accounts,Tweets + career stage (paper),Person-centred φ (paper),User RI + random slope,-0.0855283972327491,0.06616748748878665,0.1961478555019729,True,False
+D_KL_Global,Without 3 largest accounts,Tweets + career stage (paper),Person-centred φ (paper),"User FE, clustered SE",-0.06842864530699728,0.06386759639027854,0.2889309091533727,True,False
+D_KL_Global,Without 3 largest accounts,Tweets + career stage (paper),Within-account percentile rank,User RI (paper),-0.13790489352589172,0.04052918677772934,0.0006674622047235612,True,False
+D_KL_Global,Without 3 largest accounts,Tweets + career stage (paper),Within-account percentile rank,User RI + random slope,-0.11358218092333108,0.06248930764208069,0.06912133789549563,True,False
+D_KL_Global,Without 3 largest accounts,Tweets + career stage (paper),Within-account percentile rank,"User FE, clustered SE",-0.12417086489924824,0.07099432694718047,0.08618735108512868,True,False
+D_KL_Tail,All windows,None,Person-centred φ (paper),User RI (paper),-0.06555640638152474,0.030792037066643664,0.0332538319339324,True,False
+D_KL_Tail,All windows,None,Person-centred φ (paper),User RI + random slope,-0.062106347127029636,0.0494314217255637,0.20896578498867824,True,False
+D_KL_Tail,All windows,None,Person-centred φ (paper),"User FE, clustered SE",-0.06555640638152477,0.04972964327647689,0.1928817343322038,True,False
+D_KL_Tail,All windows,None,Within-account percentile rank,User RI (paper),-0.07589437525281194,0.030759378476371373,0.013611448427216049,True,False
+D_KL_Tail,All windows,None,Within-account percentile rank,User RI + random slope,-0.057011631241436586,0.05096806111860982,0.26332122350497633,True,False
+D_KL_Tail,All windows,None,Within-account percentile rank,"User FE, clustered SE",-0.07589437525281198,0.05736047989644915,0.19127241123991798,True,False
+D_KL_Tail,All windows,Tweets in window,Person-centred φ (paper),User RI (paper),-0.050487986362440264,0.03144261954076659,0.10833584119186507,True,False
+D_KL_Tail,All windows,Tweets in window,Person-centred φ (paper),User RI + random slope,-0.03991645548224025,0.05081919344480963,0.4321837778683616,True,False
+D_KL_Tail,All windows,Tweets in window,Person-centred φ (paper),"User FE, clustered SE",-0.04045567477251749,0.055675286274195275,0.47053028901599203,True,False
+D_KL_Tail,All windows,Tweets in window,Within-account percentile rank,User RI (paper),-0.06385502041633084,0.031097334316016946,0.040034565494464956,True,False
+D_KL_Tail,All windows,Tweets in window,Within-account percentile rank,User RI + random slope,-0.04074113084643439,0.05186974154239673,0.4321892964117444,True,False
+D_KL_Tail,All windows,Tweets in window,Within-account percentile rank,"User FE, clustered SE",-0.05601578868044273,0.06045787679235752,0.35822069848025573,True,False
+D_KL_Tail,All windows,Tweets + career stage (paper),Person-centred φ (paper),User RI (paper),-0.0490726978836863,0.03141498546828533,0.1182693133779076,True,True
+D_KL_Tail,All windows,Tweets + career stage (paper),Person-centred φ (paper),User RI + random slope,-0.038144956125983134,0.05066561233335447,0.4515240450112895,True,False
+D_KL_Tail,All windows,Tweets + career stage (paper),Person-centred φ (paper),"User FE, clustered SE",-0.03920143194163674,0.054453522624290374,0.4746310022471443,True,False
+D_KL_Tail,All windows,Tweets + career stage (paper),Within-account percentile rank,User RI (paper),-0.061114144911180404,0.031106185308529478,0.04944963029358368,True,False
+D_KL_Tail,All windows,Tweets + career stage (paper),Within-account percentile rank,User RI + random slope,-0.0382407882374636,0.05178189087124789,0.46021228805019687,True,False
+D_KL_Tail,All windows,Tweets + career stage (paper),Within-account percentile rank,"User FE, clustered SE",-0.053505698504304804,0.059846258009676245,0.3751895194625847,True,False
+D_KL_Tail,≤ 20 windows per account,None,Person-centred φ (paper),User RI (paper),-0.005478781429450327,0.03710521542071921,0.8826148163443795,True,False
+D_KL_Tail,≤ 20 windows per account,None,Person-centred φ (paper),User RI + random slope,-0.017017440948023554,0.05118690906797759,0.7395442817748357,True,False
+D_KL_Tail,≤ 20 windows per account,None,Person-centred φ (paper),"User FE, clustered SE",-0.005478781429450173,0.05663728951221028,0.9232888571594923,True,False
+D_KL_Tail,≤ 20 windows per account,None,Within-account percentile rank,User RI (paper),-0.03466514788234984,0.037256884127318673,0.3521453636058749,True,False
+D_KL_Tail,≤ 20 windows per account,None,Within-account percentile rank,User RI + random slope,-0.019998543209033427,0.06936067791544971,0.7730965844417235,False,False
+D_KL_Tail,≤ 20 windows per account,None,Within-account percentile rank,"User FE, clustered SE",-0.034665147882349624,0.0662685518926855,0.6030051183013985,True,False
+D_KL_Tail,≤ 20 windows per account,Tweets in window,Person-centred φ (paper),User RI (paper),0.007961900649928832,0.037893529519328964,0.8335799432034481,True,False
+D_KL_Tail,≤ 20 windows per account,Tweets in window,Person-centred φ (paper),User RI + random slope,-0.0016126288256449346,0.05244516312098626,0.975469827244412,True,False
+D_KL_Tail,≤ 20 windows per account,Tweets in window,Person-centred φ (paper),"User FE, clustered SE",0.0226686132526067,0.060933288553826896,0.7113049452267931,True,False
+D_KL_Tail,≤ 20 windows per account,Tweets in window,Within-account percentile rank,User RI (paper),-0.025653249316806088,0.03761439203335049,0.4952350180077927,True,False
+D_KL_Tail,≤ 20 windows per account,Tweets in window,Within-account percentile rank,User RI + random slope,-0.012628367141557911,0.05956465814851221,0.8320983949669336,True,False
+D_KL_Tail,≤ 20 windows per account,Tweets in window,Within-account percentile rank,"User FE, clustered SE",-0.014940080589816588,0.06603444464386245,0.8218482079172866,True,False
+D_KL_Tail,≤ 20 windows per account,Tweets + career stage (paper),Person-centred φ (paper),User RI (paper),0.009104046773834785,0.03797223794552599,0.8105199316592819,True,False
+D_KL_Tail,≤ 20 windows per account,Tweets + career stage (paper),Person-centred φ (paper),User RI + random slope,-0.0007751643687175427,0.05245240697855938,0.9882089458818637,True,False
+D_KL_Tail,≤ 20 windows per account,Tweets + career stage (paper),Person-centred φ (paper),"User FE, clustered SE",0.023684612599082375,0.06115814530555478,0.7000521374027016,True,False
+D_KL_Tail,≤ 20 windows per account,Tweets + career stage (paper),Within-account percentile rank,User RI (paper),-0.02383362329283315,0.03780350356118766,0.5283932080842173,True,False
+D_KL_Tail,≤ 20 windows per account,Tweets + career stage (paper),Within-account percentile rank,User RI + random slope,-0.011495287409800947,0.059772776280341756,0.8474943432482823,True,False
+D_KL_Tail,≤ 20 windows per account,Tweets + career stage (paper),Within-account percentile rank,"User FE, clustered SE",-0.013331315750861284,0.06705171961790747,0.8431356214731014,True,False
+D_KL_Tail,Without 3 largest accounts,None,Person-centred φ (paper),User RI (paper),-0.05894370182425013,0.038097388479237146,0.12181868098689828,True,False
+D_KL_Tail,Without 3 largest accounts,None,Person-centred φ (paper),User RI + random slope,-0.06923200119228541,0.05813083774131361,0.23366592035189782,True,False
+D_KL_Tail,Without 3 largest accounts,None,Person-centred φ (paper),"User FE, clustered SE",-0.05894370182425028,0.06225552010952026,0.3481184619646047,True,False
+D_KL_Tail,Without 3 largest accounts,None,Within-account percentile rank,User RI (paper),-0.09201329080014288,0.03773810024634579,0.014760329205832706,True,False
+D_KL_Tail,Without 3 largest accounts,None,Within-account percentile rank,User RI + random slope,-0.04828339546211482,0.06277868959738296,0.44183106152726914,False,False
+D_KL_Tail,Without 3 largest accounts,None,Within-account percentile rank,"User FE, clustered SE",-0.09201329080014303,0.06477823772312499,0.16144952458216036,True,False
+D_KL_Tail,Without 3 largest accounts,Tweets in window,Person-centred φ (paper),User RI (paper),-0.042826779834083055,0.03960684195179336,0.2795647918634496,True,False
+D_KL_Tail,Without 3 largest accounts,Tweets in window,Person-centred φ (paper),User RI + random slope,-0.050899008962175,0.059031789087116385,0.3885606895743804,True,False
+D_KL_Tail,Without 3 largest accounts,Tweets in window,Person-centred φ (paper),"User FE, clustered SE",-0.02554547065986233,0.0609576419900077,0.6768916450193103,True,False
+D_KL_Tail,Without 3 largest accounts,Tweets in window,Within-account percentile rank,User RI (paper),-0.08075395895626676,0.038576488329675675,0.03631822959743173,True,False
+D_KL_Tail,Without 3 largest accounts,Tweets in window,Within-account percentile rank,User RI + random slope,-0.0450063921872604,0.05923377253321784,0.44736837170418997,True,False
+D_KL_Tail,Without 3 largest accounts,Tweets in window,Within-account percentile rank,"User FE, clustered SE",-0.06794136704178115,0.06116286348600653,0.27175284962852464,True,False
+D_KL_Tail,Without 3 largest accounts,Tweets + career stage (paper),Person-centred φ (paper),User RI (paper),-0.04104568794323345,0.03961250422614719,0.3001181364590756,True,False
+D_KL_Tail,Without 3 largest accounts,Tweets + career stage (paper),Person-centred φ (paper),User RI + random slope,-0.04834013748933741,0.05914584669692334,0.4137547175805386,True,False
+D_KL_Tail,Without 3 largest accounts,Tweets + career stage (paper),Person-centred φ (paper),"User FE, clustered SE",-0.023900396085995146,0.06087400862800645,0.6962044855633822,True,False
+D_KL_Tail,Without 3 largest accounts,Tweets + career stage (paper),Within-account percentile rank,User RI (paper),-0.0772771023551033,0.038691797864131156,0.045798287114877004,True,False
+D_KL_Tail,Without 3 largest accounts,Tweets + career stage (paper),Within-account percentile rank,User RI + random slope,-0.04099396205849244,0.05946649050338244,0.4905952446505355,False,False
+D_KL_Tail,Without 3 largest accounts,Tweets + career stage (paper),Within-account percentile rank,"User FE, clustered SE",-0.06464373007452531,0.0623216837383722,0.30441462438610717,True,False
+Yules_K,All windows,None,Person-centred φ (paper),User RI (paper),-0.0818383860205481,0.03120086584601293,0.008717144992819966,True,False
+Yules_K,All windows,None,Person-centred φ (paper),User RI + random slope,-0.0649138958470461,0.059977155680415666,0.2791146523136919,True,False
+Yules_K,All windows,None,Person-centred φ (paper),"User FE, clustered SE",-0.08183838602054808,0.041857392801697375,0.055651845783189755,True,False
+Yules_K,All windows,None,Within-account percentile rank,User RI (paper),-0.10563352170186942,0.03110276198433194,0.0006830978247518579,True,False
+Yules_K,All windows,None,Within-account percentile rank,User RI + random slope,-0.08599334034182925,0.06111492189538563,0.1594048514719012,True,False
+Yules_K,All windows,None,Within-account percentile rank,"User FE, clustered SE",-0.1056335217018694,0.04732512928582784,0.02970215990619695,True,False
+Yules_K,All windows,Tweets in window,Person-centred φ (paper),User RI (paper),-0.07129561312322981,0.03193566553830328,0.025583506763821692,True,False
+Yules_K,All windows,Tweets in window,Person-centred φ (paper),User RI + random slope,-0.053673715995638395,0.059692683473566426,0.3685634929513889,True,False
+Yules_K,All windows,Tweets in window,Person-centred φ (paper),"User FE, clustered SE",-0.06132330266135829,0.043753019972378564,0.16665920953575772,True,False
+Yules_K,All windows,Tweets in window,Within-account percentile rank,User RI (paper),-0.09743498819983255,0.0315303351578962,0.0020002289950870975,True,False
+Yules_K,All windows,Tweets in window,Within-account percentile rank,User RI + random slope,-0.0764716933382909,0.06171689198536822,0.21531871194494578,True,False
+Yules_K,All windows,Tweets in window,Within-account percentile rank,"User FE, clustered SE",-0.08968464257539609,0.04960218289614982,0.07606305266131329,True,False
+Yules_K,All windows,Tweets + career stage (paper),Person-centred φ (paper),User RI (paper),-0.06978192802380231,0.03190227282109641,0.028715859293477648,True,True
+Yules_K,All windows,Tweets + career stage (paper),Person-centred φ (paper),User RI + random slope,-0.05081432901710704,0.05955067783526461,0.3934954214299591,True,False
+Yules_K,All windows,Tweets + career stage (paper),Person-centred φ (paper),"User FE, clustered SE",-0.059995381616899525,0.04302252876528485,0.16877086421355167,True,False
+Yules_K,All windows,Tweets + career stage (paper),Within-account percentile rank,User RI (paper),-0.09458923622041102,0.03153697745293557,0.0027059002171733928,True,False
+Yules_K,All windows,Tweets + career stage (paper),Within-account percentile rank,User RI + random slope,-0.07451493893718387,0.06131888283247772,0.22428837453592154,True,False
+Yules_K,All windows,Tweets + career stage (paper),Within-account percentile rank,"User FE, clustered SE",-0.08708371537093447,0.04937602389489894,0.08333918435471281,True,False
+Yules_K,≤ 20 windows per account,None,Person-centred φ (paper),User RI (paper),-0.007099233199615886,0.04165000684993702,0.8646564507263789,True,False
+Yules_K,≤ 20 windows per account,None,Person-centred φ (paper),User RI + random slope,-0.01600195063459787,0.058976342762741996,0.7861385447472558,True,False
+Yules_K,≤ 20 windows per account,None,Person-centred φ (paper),"User FE, clustered SE",-0.0070992331996158065,0.05248112349633029,0.8928905827571385,True,False
+Yules_K,≤ 20 windows per account,None,Within-account percentile rank,User RI (paper),-0.06081098811779925,0.04176268006420427,0.1453626632949814,True,False
+Yules_K,≤ 20 windows per account,None,Within-account percentile rank,User RI + random slope,-0.059718219669293277,0.06196830305013709,0.33520148508245584,True,False
+Yules_K,≤ 20 windows per account,None,Within-account percentile rank,"User FE, clustered SE",-0.0608109881177992,0.06749975433786257,0.37156597787043355,True,False
+Yules_K,≤ 20 windows per account,Tweets in window,Person-centred φ (paper),User RI (paper),-0.006167664992997222,0.042779255703192076,0.8853629130222722,True,False
+Yules_K,≤ 20 windows per account,Tweets in window,Person-centred φ (paper),User RI + random slope,-0.017539007871528855,0.05986748207143541,0.7695497855860517,True,False
+Yules_K,≤ 20 windows per account,Tweets in window,Person-centred φ (paper),"User FE, clustered SE",0.010780769985738696,0.05736275826332304,0.8516151888404371,True,False
+Yules_K,≤ 20 windows per account,Tweets in window,Within-account percentile rank,User RI (paper),-0.061582412734900845,0.04242223931132352,0.1465978400297864,True,False
+Yules_K,≤ 20 windows per account,Tweets in window,Within-account percentile rank,User RI + random slope,-0.0645025673048689,0.06275130108150688,0.30399308420377347,True,False
+Yules_K,≤ 20 windows per account,Tweets in window,Within-account percentile rank,"User FE, clustered SE",-0.049397745558435804,0.07216294032398868,0.49651467100980307,True,False
+Yules_K,≤ 20 windows per account,Tweets + career stage (paper),Person-centred φ (paper),User RI (paper),-0.004424571930183367,0.04285653199257669,0.9177713169196122,True,False
+Yules_K,≤ 20 windows per account,Tweets + career stage (paper),Person-centred φ (paper),User RI + random slope,-0.015198240820523783,0.05984939472506702,0.7995408078877679,True,False
+Yules_K,≤ 20 windows per account,Tweets + career stage (paper),Person-centred φ (paper),"User FE, clustered SE",0.012340603299539283,0.05758060274828125,0.8310911085335607,True,False
+Yules_K,≤ 20 windows per account,Tweets + career stage (paper),Within-account percentile rank,User RI (paper),-0.05896082411138051,0.04262917760390144,0.16663126738132583,True,False
+Yules_K,≤ 20 windows per account,Tweets + career stage (paper),Within-account percentile rank,User RI + random slope,-0.06281967105052842,0.06265943280812043,0.31607451241564755,True,False
+Yules_K,≤ 20 windows per account,Tweets + career stage (paper),Within-account percentile rank,"User FE, clustered SE",-0.047037236285821384,0.0734939431006322,0.5248200519817247,True,False
+Yules_K,Without 3 largest accounts,None,Person-centred φ (paper),User RI (paper),-0.06058227853855145,0.04259630720924666,0.15495586427080932,True,False
+Yules_K,Without 3 largest accounts,None,Person-centred φ (paper),User RI + random slope,-0.05169806380769485,0.07032412912332363,0.462254378351888,True,False
+Yules_K,Without 3 largest accounts,None,Person-centred φ (paper),"User FE, clustered SE",-0.060582278538551505,0.06538906458327119,0.35847191212611734,True,False
+Yules_K,Without 3 largest accounts,None,Within-account percentile rank,User RI (paper),-0.119674383674843,0.04208087394844722,0.004456308377590961,True,False
+Yules_K,Without 3 largest accounts,None,Within-account percentile rank,User RI + random slope,-0.08370888038959272,0.06804985086056041,0.21865548476689156,True,False
+Yules_K,Without 3 largest accounts,None,Within-account percentile rank,"User FE, clustered SE",-0.11967438367484308,0.07166093817116055,0.10092733262407037,True,False
+Yules_K,Without 3 largest accounts,Tweets in window,Person-centred φ (paper),User RI (paper),-0.05897891278922438,0.04446434278219264,0.18469675188636792,True,False
+Yules_K,Without 3 largest accounts,Tweets in window,Person-centred φ (paper),User RI + random slope,-0.05385594370802069,0.07148602461177542,0.45122325748675207,True,False
+Yules_K,Without 3 largest accounts,Tweets in window,Person-centred φ (paper),"User FE, clustered SE",-0.03840328992237895,0.06902392238499691,0.5803400091203454,True,False
+Yules_K,Without 3 largest accounts,Tweets in window,Within-account percentile rank,User RI (paper),-0.12053147907736468,0.043217598320873976,0.005288014150570435,True,False
+Yules_K,Without 3 largest accounts,Tweets in window,Within-account percentile rank,User RI + random slope,-0.08913932124063198,0.06898303032825547,0.19629065487920094,True,False
+Yules_K,Without 3 largest accounts,Tweets in window,Within-account percentile rank,"User FE, clustered SE",-0.1054889125399502,0.07651465675083516,0.17389708538942497,True,False
+Yules_K,Without 3 largest accounts,Tweets + career stage (paper),Person-centred φ (paper),User RI (paper),-0.05672942199595262,0.044455238168862314,0.20191943562866532,True,False
+Yules_K,Without 3 largest accounts,Tweets + career stage (paper),Person-centred φ (paper),User RI + random slope,-0.04961658671078764,0.07149524075490046,0.48769194868096166,True,False
+Yules_K,Without 3 largest accounts,Tweets + career stage (paper),Person-centred φ (paper),"User FE, clustered SE",-0.036361362119691445,0.06971463260025502,0.6041812742129006,True,False
+Yules_K,Without 3 largest accounts,Tweets + career stage (paper),Within-account percentile rank,User RI (paper),-0.11631899297430373,0.04333884221682567,0.007275945582232425,True,False
+Yules_K,Without 3 largest accounts,Tweets + career stage (paper),Within-account percentile rank,User RI + random slope,-0.08603961348201082,0.0687081459143564,0.210479642033075,True,False
+Yules_K,Without 3 largest accounts,Tweets + career stage (paper),Within-account percentile rank,"User FE, clustered SE",-0.10151085892495468,0.07810688895613062,0.19945644617459504,True,False
+Absolutist_Density,All windows,None,Person-centred φ (paper),User RI (paper),0.006987100617430517,0.033683391992307944,0.835670470885404,True,False
+Absolutist_Density,All windows,None,Person-centred φ (paper),User RI + random slope,-0.014162041190726121,0.07744557700784126,0.8549043940491667,False,False
+Absolutist_Density,All windows,None,Person-centred φ (paper),"User FE, clustered SE",0.006987100617430532,0.059546727021382584,0.9070195738043041,True,False
+Absolutist_Density,All windows,None,Within-account percentile rank,User RI (paper),0.01837935938987063,0.033677524514856574,0.5852408513405267,True,False
+Absolutist_Density,All windows,None,Within-account percentile rank,User RI + random slope,0.011896824853132012,0.04806900742857716,0.8045253882202714,True,False
+Absolutist_Density,All windows,None,Within-account percentile rank,"User FE, clustered SE",0.018379359389870644,0.05341399897901917,0.7320888021521813,True,False
+Absolutist_Density,All windows,Tweets in window,Person-centred φ (paper),User RI (paper),0.01964116174015096,0.03437861140687332,0.5677832698763767,True,False
+Absolutist_Density,All windows,Tweets in window,Person-centred φ (paper),User RI + random slope,-0.004016599154875099,0.07551622150741195,0.9575816697067973,False,False
+Absolutist_Density,All windows,Tweets in window,Person-centred φ (paper),"User FE, clustered SE",0.017039114610605494,0.0592283889388819,0.7746691717019808,True,False
+Absolutist_Density,All windows,Tweets in window,Within-account percentile rank,User RI (paper),0.028603309925976022,0.034102916634447096,0.4016180307948801,True,False
+Absolutist_Density,All windows,Tweets in window,Within-account percentile rank,User RI + random slope,0.023043981447758478,0.048105625661149405,0.631918120867193,True,False
+Absolutist_Density,All windows,Tweets in window,Within-account percentile rank,"User FE, clustered SE",0.02659978970640806,0.052971631413669534,0.6175654102623485,True,False
+Absolutist_Density,All windows,Tweets + career stage (paper),Person-centred φ (paper),User RI (paper),0.01871109059084661,0.034397486587250475,0.5864643217067012,True,True
+Absolutist_Density,All windows,Tweets + career stage (paper),Person-centred φ (paper),User RI + random slope,-0.006027302194577981,0.07454878832576979,0.9355608955408825,False,False
+Absolutist_Density,All windows,Tweets + career stage (paper),Person-centred φ (paper),"User FE, clustered SE",0.016289446383138114,0.05907625962232728,0.7837842841957052,True,False
+Absolutist_Density,All windows,Tweets + career stage (paper),Within-account percentile rank,User RI (paper),0.026934527671055877,0.03415977647856873,0.4304121051999168,True,False
+Absolutist_Density,All windows,Tweets + career stage (paper),Within-account percentile rank,User RI + random slope,0.020648221568336064,0.048458269740069816,0.6700326821418536,True,False
+Absolutist_Density,All windows,Tweets + career stage (paper),Within-account percentile rank,"User FE, clustered SE",0.025090318394417933,0.0533457965044864,0.6399765359725123,True,False
+Absolutist_Density,≤ 20 windows per account,None,Person-centred φ (paper),User RI (paper),0.001451701572628764,0.043210911713683776,0.9731995374707875,True,False
+Absolutist_Density,≤ 20 windows per account,None,Person-centred φ (paper),User RI + random slope,-0.016655610611024007,0.06143100730900239,0.7862932822798394,False,False
+Absolutist_Density,≤ 20 windows per account,None,Person-centred φ (paper),"User FE, clustered SE",0.0014517015726286996,0.05726099200984248,0.9798656683875868,True,False
+Absolutist_Density,≤ 20 windows per account,None,Within-account percentile rank,User RI (paper),0.0023500912891756824,0.04342853528547322,0.9568443468132484,True,False
+Absolutist_Density,≤ 20 windows per account,None,Within-account percentile rank,User RI + random slope,0.008970432964288575,0.0853856180274729,0.9163298723318162,False,False
+Absolutist_Density,≤ 20 windows per account,None,Within-account percentile rank,"User FE, clustered SE",0.0023500912891755927,0.054272654310346925,0.9656179626739915,True,False
+Absolutist_Density,≤ 20 windows per account,Tweets in window,Person-centred φ (paper),User RI (paper),0.017156235332552085,0.04402539314519752,0.6967661299616659,True,False
+Absolutist_Density,≤ 20 windows per account,Tweets in window,Person-centred φ (paper),User RI + random slope,-0.001744914034379006,0.06269594133177529,0.9777966448143907,False,False
+Absolutist_Density,≤ 20 windows per account,Tweets in window,Person-centred φ (paper),"User FE, clustered SE",0.014480923374996563,0.05981439289925867,0.8096049654387387,True,False
+Absolutist_Density,≤ 20 windows per account,Tweets in window,Within-account percentile rank,User RI (paper),0.013960021955567533,0.04385214641236996,0.7502248029055265,True,False
+Absolutist_Density,≤ 20 windows per account,Tweets in window,Within-account percentile rank,User RI + random slope,0.023373121421758396,0.08570282343982538,0.7850662402013666,False,False
+Absolutist_Density,≤ 20 windows per account,Tweets in window,Within-account percentile rank,"User FE, clustered SE",0.011909859488614493,0.05625738522446034,0.833121263518602,True,False
+Absolutist_Density,≤ 20 windows per account,Tweets + career stage (paper),Person-centred φ (paper),User RI (paper),0.014782376255615338,0.0440885759433693,0.7374077456842836,True,False
+Absolutist_Density,≤ 20 windows per account,Tweets + career stage (paper),Person-centred φ (paper),User RI + random slope,-0.004878186565697351,0.061211675248132896,0.9364808483345901,False,False
+Absolutist_Density,≤ 20 windows per account,Tweets + career stage (paper),Person-centred φ (paper),"User FE, clustered SE",0.012276299850347495,0.060557953861296414,0.8401020681832049,True,False
+Absolutist_Density,≤ 20 windows per account,Tweets + career stage (paper),Within-account percentile rank,User RI (paper),0.009875274747050453,0.04404316872813849,0.822587615476628,True,False
+Absolutist_Density,≤ 20 windows per account,Tweets + career stage (paper),Within-account percentile rank,User RI + random slope,0.020305061701591645,0.08584186216169593,0.8130134225345762,False,False
+Absolutist_Density,≤ 20 windows per account,Tweets + career stage (paper),Within-account percentile rank,"User FE, clustered SE",0.007962962651960158,0.05778786599643708,0.8909045351950238,True,False
+Absolutist_Density,Without 3 largest accounts,None,Person-centred φ (paper),User RI (paper),0.03130354178918919,0.04367122967951398,0.4734974501876452,False,False
+Absolutist_Density,Without 3 largest accounts,None,Person-centred φ (paper),User RI + random slope,0.015441777427196286,0.054625698565580375,0.7774195531500657,True,False
+Absolutist_Density,Without 3 largest accounts,None,Person-centred φ (paper),"User FE, clustered SE",0.03130354178918922,0.05834353627055131,0.5938747053776118,True,False
+Absolutist_Density,Without 3 largest accounts,None,Within-account percentile rank,User RI (paper),0.025808446867420003,0.043434175570816205,0.5523805123315392,False,False
+Absolutist_Density,Without 3 largest accounts,None,Within-account percentile rank,User RI + random slope,0.014170726277764018,0.07678801587619989,0.8535871349826161,False,False
+Absolutist_Density,Without 3 largest accounts,None,Within-account percentile rank,"User FE, clustered SE",0.02580844686742005,0.05574075370176305,0.6452901659370079,True,False
+Absolutist_Density,Without 3 largest accounts,Tweets in window,Person-centred φ (paper),User RI (paper),0.0456743967597015,0.04502115006726825,0.31033956819405706,True,False
+Absolutist_Density,Without 3 largest accounts,Tweets in window,Person-centred φ (paper),User RI + random slope,0.027238805696608945,0.05621487060849616,0.627996975134066,False,False
+Absolutist_Density,Without 3 largest accounts,Tweets in window,Person-centred φ (paper),"User FE, clustered SE",0.03743862426325384,0.060056904706778096,0.5357558862300612,True,False
+Absolutist_Density,Without 3 largest accounts,Tweets in window,Within-account percentile rank,User RI (paper),0.036171025348298504,0.04422489089990368,0.4134209134319231,True,False
+Absolutist_Density,Without 3 largest accounts,Tweets in window,Within-account percentile rank,User RI + random slope,0.025360790429131464,0.07725191943474158,0.7426947747456647,False,False
+Absolutist_Density,Without 3 largest accounts,Tweets in window,Within-account percentile rank,"User FE, clustered SE",0.02960943348714171,0.05616354664720976,0.600296700547416,True,False
+Absolutist_Density,Without 3 largest accounts,Tweets + career stage (paper),Person-centred φ (paper),User RI (paper),0.044132373553277045,0.04506380957775567,0.3274165911192124,True,False
+Absolutist_Density,Without 3 largest accounts,Tweets + career stage (paper),Person-centred φ (paper),User RI + random slope,0.025938557380400393,0.05587410983887418,0.6424814392184401,False,False
+Absolutist_Density,Without 3 largest accounts,Tweets + career stage (paper),Person-centred φ (paper),"User FE, clustered SE",0.03610297097549419,0.06119670292388831,0.5577794159239804,True,False
+Absolutist_Density,Without 3 largest accounts,Tweets + career stage (paper),Within-account percentile rank,User RI (paper),0.03310695037465672,0.044384820923978,0.4557235725167038,False,False
+Absolutist_Density,Without 3 largest accounts,Tweets + career stage (paper),Within-account percentile rank,User RI + random slope,0.021837270197419895,0.07735941403307889,0.7777262945493425,False,False
+Absolutist_Density,Without 3 largest accounts,Tweets + career stage (paper),Within-account percentile rank,"User FE, clustered SE",0.02672575956032922,0.05847288743418639,0.6495299482065029,True,False
+UsThem_Pronoun_Density,All windows,None,Person-centred φ (paper),User RI (paper),0.030815601603023438,0.030415204544484063,0.310981655221229,True,False
+UsThem_Pronoun_Density,All windows,None,Person-centred φ (paper),User RI + random slope,0.0769715350288125,0.053996601436869074,0.154016038583779,True,False
+UsThem_Pronoun_Density,All windows,None,Person-centred φ (paper),"User FE, clustered SE",0.030815601603023435,0.04893833018378278,0.5315096459690388,True,False
+UsThem_Pronoun_Density,All windows,None,Within-account percentile rank,User RI (paper),0.03115013112959545,0.03041473850710409,0.3057508186641146,True,False
+UsThem_Pronoun_Density,All windows,None,Within-account percentile rank,User RI + random slope,0.06376692836886678,0.04582580291726023,0.16407171974827073,True,False
+UsThem_Pronoun_Density,All windows,None,Within-account percentile rank,"User FE, clustered SE",0.031150131129595415,0.04169827366322114,0.45822335370383754,True,False
+UsThem_Pronoun_Density,All windows,Tweets in window,Person-centred φ (paper),User RI (paper),0.0654767930258169,0.030812480432739865,0.033585876024439236,True,False
+UsThem_Pronoun_Density,All windows,Tweets in window,Person-centred φ (paper),User RI + random slope,0.11416421103357068,0.05271063972129772,0.030321386598324743,True,False
+UsThem_Pronoun_Density,All windows,Tweets in window,Person-centred φ (paper),"User FE, clustered SE",0.061249365906843815,0.0487378352815502,0.21416957032270625,True,False
+UsThem_Pronoun_Density,All windows,Tweets in window,Within-account percentile rank,User RI (paper),0.05815844305478531,0.030560741298725543,0.05703477129257003,True,False
+UsThem_Pronoun_Density,All windows,Tweets in window,Within-account percentile rank,User RI + random slope,0.0983895834926298,0.0447158553352569,0.02778357666765622,True,False
+UsThem_Pronoun_Density,All windows,Tweets in window,Within-account percentile rank,"User FE, clustered SE",0.0547180151712424,0.04270651955973421,0.20547936598323696,True,False
+UsThem_Pronoun_Density,All windows,Tweets + career stage (paper),Person-centred φ (paper),User RI (paper),0.06437195149693133,0.030811912682300165,0.03669058925714289,True,True
+UsThem_Pronoun_Density,All windows,Tweets + career stage (paper),Person-centred φ (paper),User RI + random slope,0.11193587248311486,0.053272836573226345,0.03562507986084536,True,False
+UsThem_Pronoun_Density,All windows,Tweets + career stage (paper),Person-centred φ (paper),"User FE, clustered SE",0.06031207363288968,0.04933441723035515,0.22672595540505655,True,False
+UsThem_Pronoun_Density,All windows,Tweets + career stage (paper),Within-account percentile rank,User RI (paper),0.05610639037038737,0.03059490367816562,0.06667662119800442,True,False
+UsThem_Pronoun_Density,All windows,Tweets + career stage (paper),Within-account percentile rank,User RI + random slope,0.09620761240734536,0.04514049237654286,0.03306501688673134,True,False
+UsThem_Pronoun_Density,All windows,Tweets + career stage (paper),Within-account percentile rank,"User FE, clustered SE",0.0528375434797154,0.04359222953575156,0.23066070572383846,True,False
+UsThem_Pronoun_Density,≤ 20 windows per account,None,Person-centred φ (paper),User RI (paper),0.045549142113032466,0.03930554793799233,0.2465182880681268,True,False
+UsThem_Pronoun_Density,≤ 20 windows per account,None,Person-centred φ (paper),User RI + random slope,0.06614202879246098,0.0582125307369621,0.255866032336438,True,False
+UsThem_Pronoun_Density,≤ 20 windows per account,None,Person-centred φ (paper),"User FE, clustered SE",0.04554914211303241,0.06652526785991454,0.4964152902539208,True,False
+UsThem_Pronoun_Density,≤ 20 windows per account,None,Within-account percentile rank,User RI (paper),0.047338764335480746,0.039499479162150665,0.23073583352294624,True,False
+UsThem_Pronoun_Density,≤ 20 windows per account,None,Within-account percentile rank,User RI + random slope,0.058681485718986834,0.049869411473093636,0.23931407299433405,True,False
+UsThem_Pronoun_Density,≤ 20 windows per account,None,Within-account percentile rank,"User FE, clustered SE",0.047338764335480676,0.05077381014094807,0.3552325956744596,True,False
+UsThem_Pronoun_Density,≤ 20 windows per account,Tweets in window,Person-centred φ (paper),User RI (paper),0.08455199943225082,0.03971336238667747,0.03324957135025187,True,False
+UsThem_Pronoun_Density,≤ 20 windows per account,Tweets in window,Person-centred φ (paper),User RI + random slope,0.10297605429096686,0.05691291516515532,0.07039481462578102,True,False
+UsThem_Pronoun_Density,≤ 20 windows per account,Tweets in window,Person-centred φ (paper),"User FE, clustered SE",0.07952667566824016,0.0674629223093419,0.24354436252976797,True,False
+UsThem_Pronoun_Density,≤ 20 windows per account,Tweets in window,Within-account percentile rank,User RI (paper),0.07574816399155754,0.03954693429442748,0.05544162057168943,True,False
+UsThem_Pronoun_Density,≤ 20 windows per account,Tweets in window,Within-account percentile rank,User RI + random slope,0.09430864412266754,0.060758824928130575,0.12061911591786542,False,False
+UsThem_Pronoun_Density,≤ 20 windows per account,Tweets in window,Within-account percentile rank,"User FE, clustered SE",0.07177909889839675,0.05348717188234648,0.18511418549188674,True,False
+UsThem_Pronoun_Density,≤ 20 windows per account,Tweets + career stage (paper),Person-centred φ (paper),User RI (paper),0.08540506152583155,0.03980514567703728,0.03190662876698854,True,False
+UsThem_Pronoun_Density,≤ 20 windows per account,Tweets + career stage (paper),Person-centred φ (paper),User RI + random slope,0.10331225417477702,0.057015237436216046,0.06998445140021518,True,False
+UsThem_Pronoun_Density,≤ 20 windows per account,Tweets + career stage (paper),Person-centred φ (paper),"User FE, clustered SE",0.08037819206613869,0.06737887615299422,0.23801824097046262,True,False
+UsThem_Pronoun_Density,≤ 20 windows per account,Tweets + career stage (paper),Within-account percentile rank,User RI (paper),0.07747180931995708,0.039750353054736634,0.051300318271639216,True,False
+UsThem_Pronoun_Density,≤ 20 windows per account,Tweets + career stage (paper),Within-account percentile rank,User RI + random slope,0.09632428721005601,0.0622366758716532,0.12169228200644806,False,False
+UsThem_Pronoun_Density,≤ 20 windows per account,Tweets + career stage (paper),Within-account percentile rank,"User FE, clustered SE",0.07354808019986202,0.05322107455104353,0.17257892264903146,True,False
+UsThem_Pronoun_Density,Without 3 largest accounts,None,Person-centred φ (paper),User RI (paper),0.06404510428623586,0.04084964582876639,0.11692193127890012,True,False
+UsThem_Pronoun_Density,Without 3 largest accounts,None,Person-centred φ (paper),User RI + random slope,0.09546581592307,0.06208252789593706,0.12411602308209534,True,False
+UsThem_Pronoun_Density,Without 3 largest accounts,None,Person-centred φ (paper),"User FE, clustered SE",0.0640451042862359,0.0692971631638576,0.35964623362581194,True,False
+UsThem_Pronoun_Density,Without 3 largest accounts,None,Within-account percentile rank,User RI (paper),0.06558976226763835,0.04061578939853991,0.10633595738805979,True,False
+UsThem_Pronoun_Density,Without 3 largest accounts,None,Within-account percentile rank,User RI + random slope,0.06772424088581783,0.1318052238417975,0.6073774150801232,False,False
+UsThem_Pronoun_Density,Without 3 largest accounts,None,Within-account percentile rank,"User FE, clustered SE",0.06558976226763845,0.04933292199615218,0.18947541743786714,True,False
+UsThem_Pronoun_Density,Without 3 largest accounts,Tweets in window,Person-centred φ (paper),User RI (paper),0.1246900454687976,0.04152090037007163,0.002672735880503598,True,False
+UsThem_Pronoun_Density,Without 3 largest accounts,Tweets in window,Person-centred φ (paper),User RI + random slope,0.1457664525316744,0.06061558641443667,0.01618271370511121,True,False
+UsThem_Pronoun_Density,Without 3 largest accounts,Tweets in window,Person-centred φ (paper),"User FE, clustered SE",0.11973135240546849,0.06679475548285818,0.07886668903610396,True,False
+UsThem_Pronoun_Density,Without 3 largest accounts,Tweets in window,Within-account percentile rank,User RI (paper),0.11081355759797742,0.040779126542916024,0.006579528408700904,True,False
+UsThem_Pronoun_Density,Without 3 largest accounts,Tweets in window,Within-account percentile rank,User RI + random slope,0.1214266042131052,0.05083247333460474,0.01690531897711083,True,False
+UsThem_Pronoun_Density,Without 3 largest accounts,Tweets in window,Within-account percentile rank,"User FE, clustered SE",0.10646154487190614,0.04852477159658026,0.032730421019825436,True,False
+UsThem_Pronoun_Density,Without 3 largest accounts,Tweets + career stage (paper),Person-centred φ (paper),User RI (paper),0.12414785017561054,0.04159182915081869,0.0028366214024964855,True,False
+UsThem_Pronoun_Density,Without 3 largest accounts,Tweets + career stage (paper),Person-centred φ (paper),User RI + random slope,0.14415494284222977,0.060947593395583734,0.018018983212790992,True,False
+UsThem_Pronoun_Density,Without 3 largest accounts,Tweets + career stage (paper),Person-centred φ (paper),"User FE, clustered SE",0.1192487773043524,0.06687179914181961,0.08038340549336967,True,False
+UsThem_Pronoun_Density,Without 3 largest accounts,Tweets + career stage (paper),Within-account percentile rank,User RI (paper),0.11002384980739338,0.04095813505359849,0.007225868605548882,True,False
+UsThem_Pronoun_Density,Without 3 largest accounts,Tweets + career stage (paper),Within-account percentile rank,User RI + random slope,0.12037539889932626,0.05102398895270395,0.018314765212700063,True,False
+UsThem_Pronoun_Density,Without 3 largest accounts,Tweets + career stage (paper),Within-account percentile rank,"User FE, clustered SE",0.10573456919506342,0.04813921055724401,0.0325430604093951,True,False
+We_Us_Density,All windows,None,Person-centred φ (paper),User RI (paper),0.012808149020652986,0.030951035267893896,0.6790061343470006,True,False
+We_Us_Density,All windows,None,Person-centred φ (paper),User RI + random slope,0.02915437153680142,0.04445498159209098,0.5119413142278567,True,False
+We_Us_Density,All windows,None,Person-centred φ (paper),"User FE, clustered SE",0.012808149020652951,0.04881751013958058,0.7940180307510892,True,False
+We_Us_Density,All windows,None,Within-account percentile rank,User RI (paper),0.008379511245025246,0.03095312833237186,0.7866093666999909,True,False
+We_Us_Density,All windows,None,Within-account percentile rank,User RI + random slope,0.0255931178418783,0.04289382020521541,0.5507329856562622,True,False
+We_Us_Density,All windows,None,Within-account percentile rank,"User FE, clustered SE",0.008379511245025206,0.048636790782527986,0.8638439176589073,True,False
+We_Us_Density,All windows,Tweets in window,Person-centred φ (paper),User RI (paper),0.024514393431470247,0.03168259312886269,0.4390788884324417,True,False
+We_Us_Density,All windows,Tweets in window,Person-centred φ (paper),User RI + random slope,0.04655912102273031,0.046123206526142116,0.312758347752923,True,False
+We_Us_Density,All windows,Tweets in window,Person-centred φ (paper),"User FE, clustered SE",0.02526075390861934,0.05324027248967624,0.637045371068965,True,False
+We_Us_Density,All windows,Tweets in window,Within-account percentile rank,User RI (paper),0.01733177512912187,0.031406413994664914,0.5810479515753634,True,False
+We_Us_Density,All windows,Tweets in window,Within-account percentile rank,User RI + random slope,0.039794304824306764,0.044223803920800456,0.3682059203682764,True,False
+We_Us_Density,All windows,Tweets in window,Within-account percentile rank,"User FE, clustered SE",0.017856182483168285,0.051573716707238475,0.7304935917097789,True,False
+We_Us_Density,All windows,Tweets + career stage (paper),Person-centred φ (paper),User RI (paper),0.025757720482981965,0.031670376069934586,0.41604239165989165,True,True
+We_Us_Density,All windows,Tweets + career stage (paper),Person-centred φ (paper),User RI + random slope,0.046663877828148334,0.0454688070610291,0.3047580618022697,True,False
+We_Us_Density,All windows,Tweets + career stage (paper),Person-centred φ (paper),"User FE, clustered SE",0.026375525752704052,0.05036365597344175,0.6025900793907406,True,False
+We_Us_Density,All windows,Tweets + career stage (paper),Within-account percentile rank,User RI (paper),0.019767063031923732,0.031426532703982164,0.5293537650689598,True,False
+We_Us_Density,All windows,Tweets + career stage (paper),Within-account percentile rank,User RI + random slope,0.041359679653249444,0.043934976126506924,0.34650815556504866,True,False
+We_Us_Density,All windows,Tweets + career stage (paper),Within-account percentile rank,"User FE, clustered SE",0.02018845115070454,0.048897864198117494,0.6813071621232397,True,False
+We_Us_Density,≤ 20 windows per account,None,Person-centred φ (paper),User RI (paper),0.04655433549988896,0.03897246274691001,0.2322650998651412,True,False
+We_Us_Density,≤ 20 windows per account,None,Person-centred φ (paper),User RI + random slope,0.042931808695511345,0.04126667570929343,0.29817706776709807,True,False
+We_Us_Density,≤ 20 windows per account,None,Person-centred φ (paper),"User FE, clustered SE",0.04655433549988892,0.04120611042504652,0.26346712931401955,True,False
+We_Us_Density,≤ 20 windows per account,None,Within-account percentile rank,User RI (paper),0.037473985666195,0.0391914829702979,0.33898293324241835,True,False
+We_Us_Density,≤ 20 windows per account,None,Within-account percentile rank,User RI + random slope,0.04060577176861304,0.08569943033784232,0.6356310366639338,False,False
+We_Us_Density,≤ 20 windows per account,None,Within-account percentile rank,"User FE, clustered SE",0.03747398566619496,0.044557841119468304,0.40397903530481705,True,False
+We_Us_Density,≤ 20 windows per account,Tweets in window,Person-centred φ (paper),User RI (paper),0.05799668508665953,0.03988489402375034,0.1459181618077548,True,False
+We_Us_Density,≤ 20 windows per account,Tweets in window,Person-centred φ (paper),User RI + random slope,0.054270813713026715,0.04351505495330163,0.21233396890069312,True,False
+We_Us_Density,≤ 20 windows per account,Tweets in window,Person-centred φ (paper),"User FE, clustered SE",0.059621621408511544,0.043986851876010646,0.18081712600237715,True,False
+We_Us_Density,≤ 20 windows per account,Tweets in window,Within-account percentile rank,User RI (paper),0.04522277120737251,0.03969630658266191,0.25461198537485774,True,False
+We_Us_Density,≤ 20 windows per account,Tweets in window,Within-account percentile rank,User RI + random slope,0.05221040247258695,0.08795693984682076,0.5527860474232735,False,False
+We_Us_Density,≤ 20 windows per account,Tweets in window,Within-account percentile rank,"User FE, clustered SE",0.046224180898661246,0.04589755023988463,0.31828915640585,True,False
+We_Us_Density,≤ 20 windows per account,Tweets + career stage (paper),Person-centred φ (paper),User RI (paper),0.06110098061757451,0.039884375177548656,0.12553408026336596,True,False
+We_Us_Density,≤ 20 windows per account,Tweets + career stage (paper),Person-centred φ (paper),User RI + random slope,0.05835695519272581,0.041772807114633326,0.16241109724163227,True,False
+We_Us_Density,≤ 20 windows per account,Tweets + career stage (paper),Person-centred φ (paper),"User FE, clustered SE",0.06259537263000249,0.04195450870883337,0.14141790832792847,True,False
+We_Us_Density,≤ 20 windows per account,Tweets + career stage (paper),Within-account percentile rank,User RI (paper),0.05080087935534283,0.03980557301373264,0.2018758876458926,True,False
+We_Us_Density,≤ 20 windows per account,Tweets + career stage (paper),Within-account percentile rank,User RI + random slope,0.05496525867306049,0.08747040838812661,0.5297505173568067,False,False
+We_Us_Density,≤ 20 windows per account,Tweets + career stage (paper),Within-account percentile rank,"User FE, clustered SE",0.051703519744583246,0.04507400850399356,0.2563138954912552,True,False
+We_Us_Density,Without 3 largest accounts,None,Person-centred φ (paper),User RI (paper),0.07636697667581778,0.04128304524935587,0.06433679448441565,True,False
+We_Us_Density,Without 3 largest accounts,None,Person-centred φ (paper),User RI + random slope,0.07359647420168579,0.04534486011256211,0.10458107853249536,True,False
+We_Us_Density,Without 3 largest accounts,None,Person-centred φ (paper),"User FE, clustered SE",0.07636697667581777,0.041400141178134425,0.07079411539868885,True,False
+We_Us_Density,Without 3 largest accounts,None,Within-account percentile rank,User RI (paper),0.07092417552448631,0.041073575035157496,0.08421091018236031,True,False
+We_Us_Density,Without 3 largest accounts,None,Within-account percentile rank,User RI + random slope,0.05617269197070438,0.10638745717073636,0.5974985883983763,False,False
+We_Us_Density,Without 3 largest accounts,None,Within-account percentile rank,"User FE, clustered SE",0.07092417552448632,0.04102646063581649,0.08978909749331858,True,False
+We_Us_Density,Without 3 largest accounts,Tweets in window,Person-centred φ (paper),User RI (paper),0.10128288716818888,0.04269364319835702,0.01767688190288061,True,False
+We_Us_Density,Without 3 largest accounts,Tweets in window,Person-centred φ (paper),User RI + random slope,0.09966166845243912,0.046760597023315635,0.033063012438205225,True,False
+We_Us_Density,Without 3 largest accounts,Tweets in window,Person-centred φ (paper),"User FE, clustered SE",0.1061936770527976,0.05105702375859425,0.04248058287922939,True,False
+We_Us_Density,Without 3 largest accounts,Tweets in window,Within-account percentile rank,User RI (paper),0.08850712650897852,0.041876059817452384,0.03455376046589184,True,False
+We_Us_Density,Without 3 largest accounts,Tweets in window,Within-account percentile rank,User RI + random slope,0.07470288974034225,0.08056509886412927,0.3538038236749341,True,False
+We_Us_Density,Without 3 largest accounts,Tweets in window,Within-account percentile rank,"User FE, clustered SE",0.0918026102737002,0.04636460415561746,0.05300517022938156,True,False
+We_Us_Density,Without 3 largest accounts,Tweets + career stage (paper),Person-centred φ (paper),User RI (paper),0.1033338833423358,0.04269485964888302,0.01550819228683466,True,False
+We_Us_Density,Without 3 largest accounts,Tweets + career stage (paper),Person-centred φ (paper),User RI + random slope,0.10177652491474928,0.04715940289833229,0.03091706210812768,True,False
+We_Us_Density,Without 3 largest accounts,Tweets + career stage (paper),Person-centred φ (paper),"User FE, clustered SE",0.10808813607910502,0.04856735101714537,0.030406517761775567,True,False
+We_Us_Density,Without 3 largest accounts,Tweets + career stage (paper),Within-account percentile rank,User RI (paper),0.093135938371145,0.041975021127761906,0.026497477894659872,True,False
+We_Us_Density,Without 3 largest accounts,Tweets + career stage (paper),Within-account percentile rank,User RI + random slope,0.07745995631323234,0.07859587991462472,0.32435531544878027,False,False
+We_Us_Density,Without 3 largest accounts,Tweets + career stage (paper),Within-account percentile rank,"User FE, clustered SE",0.09630311432652912,0.04529607210847733,0.03826372176056302,True,False
+They_Them_Density,All windows,None,Person-centred φ (paper),User RI (paper),0.029945472742961277,0.032133021748763216,0.35137679131373223,True,False
+They_Them_Density,All windows,None,Person-centred φ (paper),User RI + random slope,0.06303164942756669,0.05982822088742862,0.29209184448836867,True,False
+They_Them_Density,All windows,None,Person-centred φ (paper),"User FE, clustered SE",0.029945472742961287,0.06070070183968592,0.6237436365253032,True,False
+They_Them_Density,All windows,None,Within-account percentile rank,User RI (paper),0.033215489158937433,0.03212862812547675,0.3012163784513042,True,False
+They_Them_Density,All windows,None,Within-account percentile rank,User RI + random slope,0.05049129190389231,0.05210673456498445,0.33254647121538805,True,False
+They_Them_Density,All windows,None,Within-account percentile rank,"User FE, clustered SE",0.03321548915893743,0.048467862141879335,0.4960269584304536,True,False
+They_Them_Density,All windows,Tweets in window,Person-centred φ (paper),User RI (paper),0.06647572476005338,0.0325779929389635,0.04129954265789043,True,False
+They_Them_Density,All windows,Tweets in window,Person-centred φ (paper),User RI + random slope,0.11295483940356632,0.06936160091026897,0.10342052105068059,False,False
+They_Them_Density,All windows,Tweets in window,Person-centred φ (paper),"User FE, clustered SE",0.05964679777525026,0.05858227941464123,0.3130545520361112,True,False
+They_Them_Density,All windows,Tweets in window,Within-account percentile rank,User RI (paper),0.061807104086280776,0.0323118817410607,0.055769948695225106,True,False
+They_Them_Density,All windows,Tweets in window,Within-account percentile rank,User RI + random slope,0.08483768345860074,0.049928001048666196,0.08928141556694406,True,False
+They_Them_Density,All windows,Tweets in window,Within-account percentile rank,"User FE, clustered SE",0.056323595910642184,0.047997605153774436,0.24566545267602014,True,False
+They_Them_Density,All windows,Tweets + career stage (paper),Person-centred φ (paper),User RI (paper),0.06420507446112123,0.03248585422914928,0.04810937951900122,True,True
+They_Them_Density,All windows,Tweets + career stage (paper),Person-centred φ (paper),User RI + random slope,0.1059507177690118,0.06686840692797695,0.11308771117877883,False,False
+They_Them_Density,All windows,Tweets + career stage (paper),Person-centred φ (paper),"User FE, clustered SE",0.05776607022730586,0.05699703484814554,0.31526287071700826,True,False
+They_Them_Density,All windows,Tweets + career stage (paper),Within-account percentile rank,User RI (paper),0.05760666798615172,0.03225988303201986,0.07414686686898483,True,False
+They_Them_Density,All windows,Tweets + career stage (paper),Within-account percentile rank,User RI + random slope,0.08035459176196726,0.0500611559339333,0.10846551247828977,True,False
+They_Them_Density,All windows,Tweets + career stage (paper),Within-account percentile rank,"User FE, clustered SE",0.05248861215097225,0.04711564979981403,0.27010779867089335,True,False
+They_Them_Density,≤ 20 windows per account,None,Person-centred φ (paper),User RI (paper),0.02645395162812028,0.04290959270100044,0.5375616853407641,True,False
+They_Them_Density,≤ 20 windows per account,None,Person-centred φ (paper),User RI + random slope,0.043955694782938655,0.0634721083128276,0.48861092604306,True,False
+They_Them_Density,≤ 20 windows per account,None,Person-centred φ (paper),"User FE, clustered SE",0.026453951628120226,0.07984619853912572,0.7416683975191123,True,False
+They_Them_Density,≤ 20 windows per account,None,Within-account percentile rank,User RI (paper),0.03452701360965665,0.04311343865399633,0.4232236423708564,True,False
+They_Them_Density,≤ 20 windows per account,None,Within-account percentile rank,User RI + random slope,0.038376588388815934,0.05358315771694497,0.4738640512488246,True,False
+They_Them_Density,≤ 20 windows per account,None,Within-account percentile rank,"User FE, clustered SE",0.0345270136096566,0.053336742284710276,0.520104729754374,True,False
+They_Them_Density,≤ 20 windows per account,Tweets in window,Person-centred φ (paper),User RI (paper),0.06906991520187422,0.04336141734636583,0.11118514363483424,True,False
+They_Them_Density,≤ 20 windows per account,Tweets in window,Person-centred φ (paper),User RI + random slope,0.08478349408965526,0.06217954832765608,0.17271647554902647,True,False
+They_Them_Density,≤ 20 windows per account,Tweets in window,Person-centred φ (paper),"User FE, clustered SE",0.060152320805287145,0.07921386571923276,0.4508760855764999,True,False
+They_Them_Density,≤ 20 windows per account,Tweets in window,Within-account percentile rank,User RI (paper),0.06596392778702091,0.04317872214864179,0.12658822543449802,True,False
+They_Them_Density,≤ 20 windows per account,Tweets in window,Within-account percentile rank,User RI + random slope,0.08070532401571565,0.08219924387846185,0.3261857615422572,False,False
+They_Them_Density,≤ 20 windows per account,Tweets in window,Within-account percentile rank,"User FE, clustered SE",0.059185114076198905,0.05624866735315942,0.2973066278707503,True,False
+They_Them_Density,≤ 20 windows per account,Tweets + career stage (paper),Person-centred φ (paper),User RI (paper),0.06808042360449093,0.043462769465081146,0.11725316458735853,True,False
+They_Them_Density,≤ 20 windows per account,Tweets + career stage (paper),Person-centred φ (paper),User RI + random slope,0.08308084728399705,0.062412032225835044,0.18313401662680961,True,False
+They_Them_Density,≤ 20 windows per account,Tweets + career stage (paper),Person-centred φ (paper),"User FE, clustered SE",0.05929070458330722,0.07957617146028022,0.4593948526060797,True,False
+They_Them_Density,≤ 20 windows per account,Tweets + career stage (paper),Within-account percentile rank,User RI (paper),0.06446080725944617,0.04340748713615476,0.1375396202862126,True,False
+They_Them_Density,≤ 20 windows per account,Tweets + career stage (paper),Within-account percentile rank,User RI + random slope,0.07936279637473286,0.08217288135141972,0.3341428824970476,False,False
+They_Them_Density,≤ 20 windows per account,Tweets + career stage (paper),Within-account percentile rank,"User FE, clustered SE",0.05784548089717508,0.05660443545635401,0.3112905173485553,True,False
+They_Them_Density,Without 3 largest accounts,None,Person-centred φ (paper),User RI (paper),0.030162936327618583,0.04384603501570824,0.49149781928893177,True,False
+They_Them_Density,Without 3 largest accounts,None,Person-centred φ (paper),User RI + random slope,0.06732903334542631,0.06923921787039754,0.33084571768513904,True,False
+They_Them_Density,Without 3 largest accounts,None,Person-centred φ (paper),"User FE, clustered SE",0.03016293632761862,0.08606137895624369,0.7273930653921036,True,False
+They_Them_Density,Without 3 largest accounts,None,Within-account percentile rank,User RI (paper),0.0355870603935599,0.04359295553418042,0.41430062575208826,True,False
+They_Them_Density,Without 3 largest accounts,None,Within-account percentile rank,User RI + random slope,0.04878400480109172,0.059271803971207765,0.41047623585839055,True,False
+They_Them_Density,Without 3 largest accounts,None,Within-account percentile rank,"User FE, clustered SE",0.03558706039355995,0.05839857709479055,0.5449245484890853,True,False
+They_Them_Density,Without 3 largest accounts,Tweets in window,Person-centred φ (paper),User RI (paper),0.09148517165359382,0.044781563978396124,0.041060316186462095,True,False
+They_Them_Density,Without 3 largest accounts,Tweets in window,Person-centred φ (paper),User RI + random slope,0.11760486378549187,0.06790534632918081,0.08329243222808483,True,False
+They_Them_Density,Without 3 largest accounts,Tweets in window,Person-centred φ (paper),"User FE, clustered SE",0.07996910539163238,0.085097561465351,0.3516987414603173,True,False
+They_Them_Density,Without 3 largest accounts,Tweets in window,Within-account percentile rank,User RI (paper),0.08193569905696847,0.043956415766573984,0.06231870108926634,True,False
+They_Them_Density,Without 3 largest accounts,Tweets in window,Within-account percentile rank,User RI + random slope,0.10411490744536953,0.07580676823168428,0.1696202754131032,False,False
+They_Them_Density,Without 3 largest accounts,Tweets in window,Within-account percentile rank,"User FE, clustered SE",0.07279639692589113,0.0591843592203684,0.2242352069819178,True,False
+They_Them_Density,Without 3 largest accounts,Tweets + career stage (paper),Person-centred φ (paper),User RI (paper),0.08941933470523948,0.044796936624914685,0.04592262725477709,True,False
+They_Them_Density,Without 3 largest accounts,Tweets + career stage (paper),Person-centred φ (paper),User RI + random slope,0.11338599438351374,0.06822168555056611,0.09650821026019979,True,False
+They_Them_Density,Without 3 largest accounts,Tweets + career stage (paper),Person-centred φ (paper),"User FE, clustered SE",0.07814941873050106,0.08479938855523916,0.36100381515658575,True,False
+They_Them_Density,Without 3 largest accounts,Tweets + career stage (paper),Within-account percentile rank,User RI (paper),0.07791453352498037,0.04409426918576974,0.07722838070356473,True,False
+They_Them_Density,Without 3 largest accounts,Tweets + career stage (paper),Within-account percentile rank,User RI + random slope,0.10087866697644855,0.07558581384463432,0.18199932737137103,True,False
+They_Them_Density,Without 3 largest accounts,Tweets + career stage (paper),Within-account percentile rank,"User FE, clustered SE",0.06899351517162634,0.058915967877896935,0.24691726086984947,True,False
